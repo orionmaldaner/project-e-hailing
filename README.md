@@ -1,2 +1,43 @@
 # project-e-hailing
-Projeto para análise de dados de negócio E-Hailing (compartilhamento de bike).
+# Problema de negócio
+## Descrição
+Um empresário quer investir em uma nova empresa no Brasil. Um modelo de negócio que está sendo analisado é o e-hailing (compartilhamento de bicicletas). 
+## Objetivo
+Para auxiliar na tomada de decisão foi analisado dados do mesmo modelo de negócio, para entender como as bicicletas são usadas em um determinado período de tempo.
+# Planejamento da solução
+## Conceito Fato-Dimensão
+Fato direciona o tipo de resposta que espero obter, objetivo da análise, eventos de negócio, métricas relevantes.<br>
+Dimensão para auxiliar na compreensão de como o Fato de interesse pode ser visto por uma ou mais dimensões.
+### Fato 
+Entender como as bicicletas são usadas na cidade de Los Angeles.
+### Dimensão
+| Coluna | Dimensão |                        
+| ------- | ------- |
+| Trip-id  |Fato |
+| Tempo inicial <br> Tempo Final <br> Duração da viagem | Tempo |
+| Estação inicial <br> Estação final <br> Latitude estação inicial <br> Longitude estação inicial <br> Latitude estação final <br> Longitude estação final | Localização |
+| Bike id <br> Duração plano <br> Categoria rota <br> Tipo de passe <br> Tipo de bike | Produto |
+## Ferramentas
+Para esse projeto foi escolhido a ferramenta Looker da Google para análise e elaboração dos gráficos.
+## Insights
+O faturamento total estimado foi de **$ 2.848.440,5** do modelo de negócio de compartilhamento de bicicleta na cidade de Los Angeles USA, durante o segundo trimestre de 2023.
+O número total de viagens foi de **109.436** dentro do mesmo período.
+
+- Faturamento diário da Metro Bike do 2T23 ( Gráfico de série temporal )
+
+- Faturamento por Estação da Metro Bike 2T23 ( Gráfico de barras )
+
+- Faturamento e Acumulado por Estação da Metro Bike do 2T23 ( Gráfico de combinação )
+
+- Faturamento por tipo de bicicleta da Metro Bike do 2T23 ( Gráfico de pizza )
+
+- Faturamento por tipo de corrida da Metro Bike do 2T23 ( Gráfico de rosca )
+
+- Divisão do Faturamento por Tipo e Passe de Bicicleta 2T23 ( Mapa de árvore )
+
+- Faturamento Percentual por Duração da Viagem e Tipo de Bicicleta do 2T23 ( Gráfico de colunas 100% empilhadas )
+
+
+
+
+
