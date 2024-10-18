@@ -21,8 +21,8 @@ Entender como as bicicletas são usadas na cidade de Los Angeles.
 Para esse projeto foi escolhido a ferramenta Looker da Google para análise e elaboração dos gráficos.
 # Insights
 #### O faturamento total estimado foi de **$ 2.848.440,5** do modelo de negócio de compartilhamento de bicicleta na cidade de Los Angeles USA, durante o segundo trimestre de 2023. O número total de viagens foi de **109.436** dentro do mesmo período.
-<br>
-[Apresentação no Looker Studio](https://lookerstudio.google.com/s/vhlDcw1XjMQ)
+
+<a href="https://lookerstudio.google.com/s/tfO9u86HOY8" target="_blank">Apresentação no Looker Studio</a>
 
 ### Faturamento diário da Metro Bike do 2T23 ( Gráfico de série temporal )
 ![Faturamento diario](img/faturamento-diario.png)
